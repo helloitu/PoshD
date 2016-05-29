@@ -9,3 +9,13 @@ Simple python example for torrent downloads using a RSS feed
 <br>
 #Configurando suas Series preferidas para Download .....
 <hr>
+Vá até <code>https://showrss.info/?cs=feeds</code> e escolha sua serie preferida .....
+<br>
+Copie e cole o link no lugar de <code> feedRSS = "http://showrss.info/feeds/62.rss"</code>
+<br>
+Feito!
+#Configurando o Script para rodar no background
+<hr>
+Como Uso um Debian , o comando é simples ....
+<br>
+<code>  echo 'python /home/root/PoshD/PoshD.py & ' >> /etc/rc.local</code>
